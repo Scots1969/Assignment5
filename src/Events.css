@@ -1,0 +1,14 @@
+.Events{
+
+}
+
+.Events-card{
+    display: block;
+    text-align: center;
+    border: 5px solid Navy;
+    margin: .1em auto;
+    height: 120px;
+    width: 300px;
+    background-color: cornflowerblue;
+    border-radius: 10px;
+}
