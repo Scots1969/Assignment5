@@ -39,7 +39,7 @@ function StaffBios(){
         <div>
             <StaffCard name="Bill Anderson" title="Owner" image={staff1}/>
             <StaffCard name="Molly Hendricks" title="Manager" image={staff2}/>
-            <StaffCard name="Cindy Stetina" title="Life Gaurd" image={staff3}/>
+            <StaffCard name="Cindy Stetina" title="Life Guard" image={staff3}/>
         </div>
     )
 

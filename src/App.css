@@ -10,6 +10,10 @@
   height: 10em;
 }
 
+figcaption{
+
+}
+
 
 header {
   background:url('Images/WestSwimClub4.jpg') 50% no-repeat;
@@ -107,6 +111,7 @@ h2{
 
 p{
   font-size: 20px;
+
 }
 
 body{
