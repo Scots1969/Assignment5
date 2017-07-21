@@ -10,7 +10,6 @@ import Events from './Events';
 
 
 
-
 class App extends Component {
 	constructor(props) {
 		super(props);
