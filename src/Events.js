@@ -1,5 +1,6 @@
 import React from 'react';
 import './Events.css'
+import 'bulma/css/bulma.css';
 
 const eventsData =[
     {
@@ -21,11 +22,14 @@ const eventsData =[
 
 function EventCard(props){
     return(
-        <div className="Events-card">
-            <h2>{props.title}</h2>
-            <div><strong>When:</strong>{props.time}</div>
-            <div><strong>Description:</strong>{props.Description}</div>
-        </div>
+
+
+                <div className="Events-card">
+                  <h2>{props.title}</h2>
+                  <div><strong>When:</strong>{props.time}</div>
+                  <div><strong>Description:</strong>{props.Description}</div>
+                 </div>
+
     );
 }
 
@@ -35,7 +39,14 @@ export default function Events(){
                                                            title={event.title}
                                                            Description={event.Description}/>);
     return (
-        <div className="Events">{eventsDisplay}</div>
+        <div>
+            <section class="section">
+                <div class="container">
+                    <h1 className="title">Future events</h1>
+                    <div className="Events">{eventsDisplay}</div>
+                </div>
+            </section>
+        </div>
     );
 }
 

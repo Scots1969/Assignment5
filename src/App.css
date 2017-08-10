@@ -4,15 +4,13 @@
   display:flex;
   flex-direction:column;
   transition: height .25s;
-}
 
+}
 .App-hero.minimized{
   height: 10em;
 }
 
-figcaption{
 
-}
 
 
 header {
@@ -26,6 +24,7 @@ header {
   color: white;
   text-shadow: 3px 2px blue;
   text-align:center;
+
 }
 
 header a{
@@ -40,8 +39,10 @@ header h1{
 }
 
 nav{
-  height:6em;
-  background-color: white;
+  display: block;
+  height:20em;
+  font-size: x-large;
+  background-color: grey;
   text-align:right;
   align-items: center;
   justify-content: center;
@@ -49,6 +50,18 @@ nav{
   border-top: black double 4px;
   font-family: 'Josefin Sans', sans-serif;
 }
+
+
+nav li:hover {
+  background-color: #666;
+
+}
+
+nav li:hover > ul{
+  position:absolute;
+  display : block;
+}
+
 
 nav a {
   padding: .5em;
@@ -85,7 +98,7 @@ nav a {
   border: 5px solid Navy;
   padding: 1em;
   text-align: center;
-  height: 200px;
+  height: 250px;
   width: 250px;
   box-shadow: 10px 10px gray;
   background-color: white;
@@ -116,4 +129,11 @@ p{
 
 body{
   background-color: cadetblue;
+}
+
+.title{
+  font-size: 30px;
+  font-family:'Josefin Sans', sans-serif;
+  text-shadow: none;
+  border-bottom: double;
 }
